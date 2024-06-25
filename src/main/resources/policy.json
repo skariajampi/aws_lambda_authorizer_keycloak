@@ -1,0 +1,18 @@
+{
+  "principalId": "my-username",
+  "policyDocument": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Action": "execute-api:Invoke",
+        "Effect": "Allow",
+        "Resource": "arn:aws:execute-api:eu-west-2:196461258273:7lsmt8328a/*/GET/item"
+      }
+    ]
+  },
+  "context": {
+    "org": "my-org",
+    "role": "admin",
+    "createdAt": "2019-01-03T12:15:42"
+  }
+}
